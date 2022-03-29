@@ -45,7 +45,17 @@ namespace Projeto1
 
             string usuarios = $"{txtLogin.Text}, {pwbSenha.Password.ToString()}";
             if(listaLogin.Contains(usuarios))
+            {
+
                 MessageBox.Show($"Usuário '{login}' logado com sucesso!", "PDS - 2022, 1º Bimestre", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                txtLogin.Clear();
+                pwbSenha.Clear();
+
+                CalcularIMC TelaIMC = new CalcularIMC();
+                TelaIMC.ShowDialog();
+            }
+
 
             else
                 MessageBox.Show($"O usuário ou a senha está incorreta ou não existe! Tente novamente", "PDS - 2022, 1º Bimestre", MessageBoxButton.OK, MessageBoxImage.Error);
