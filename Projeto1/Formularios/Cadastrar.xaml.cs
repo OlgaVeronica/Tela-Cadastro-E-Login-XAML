@@ -70,8 +70,8 @@ namespace Projeto1.Formularios
 
         private void btChamarTelaCadastro_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainWindow = new MainWindow();
-            mainWindow.Show();
+           Grid grid= new Grid();
+            grid.Show();
             this.Close();
         }
     }

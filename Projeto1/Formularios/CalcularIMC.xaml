@@ -40,10 +40,11 @@
             <TextBlock x:Name="txbTituloIMC" HorizontalAlignment="Center" Margin="0,28,0,0" TextWrapping="Wrap" Text="Calculadora de IMC" VerticalAlignment="Top" Height="42" Width="368" Background="#FFFDFDFD" TextAlignment="Center" FontFamily="Tempus Sans ITC" FontSize="30"/>
             <TextBox x:Name="txtAltura" HorizontalAlignment="Left" Margin="45,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="29" Background="#FFF5E4E4" FontFamily="Times New Roman" FontSize="14" TextAlignment="Center" BorderThickness="2,2,2,2"/>
             <Rectangle HorizontalAlignment="Left" Height="280" Margin="374,109,0,0" Stroke="Black" VerticalAlignment="Top" Width="276"/>
-            <TextBox x:Name="txtIMCcalculado" HorizontalAlignment="Left" Margin="434,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="29" Background="#FFF5E4E4" FontFamily="Times New Roman" FontSize="14" TextAlignment="Center" BorderThickness="2,2,2,2"/>
+            <TextBox x:Name="txtIMCcalculado" HorizontalAlignment="Left" Margin="434,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="29" Background="#FFF5E4E4" FontFamily="Times New Roman" FontSize="14" TextAlignment="Center" BorderThickness="2,2,2,2" IsReadOnly="True"/>
             <Label x:Name="lbIMCcalculado" Content="Seu IMC é de:" HorizontalAlignment="Left" Margin="434,131,0,0" VerticalAlignment="Top" Height="49" Width="156" FontWeight="Bold" FontFamily="Tempus Sans ITC" FontSize="24" BorderThickness="2,2,2,2"/>
-            <TextBox x:Name="txtStatusIMC" HorizontalAlignment="Left" Margin="434,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="29" Background="#FFF5E4E4" FontFamily="Times New Roman" FontSize="14" TextAlignment="Center" BorderThickness="2,2,2,2"/>
+            <TextBox x:Name="txtStatusIMC" HorizontalAlignment="Left" Margin="434,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="29" Background="#FFF5E4E4" FontFamily="Times New Roman" FontSize="14" TextAlignment="Center" BorderThickness="2,2,2,2" IsReadOnly="True"/>
             <Label x:Name="lbSatusIMC" Content="Sua situação é de:" HorizontalAlignment="Left" Margin="420,263,0,0" VerticalAlignment="Top" Height="49" Width="256" FontWeight="Bold" FontFamily="Tempus Sans ITC" FontSize="24" BorderThickness="2,2,2,2"/>
+            <Button x:Name="btLimpar" Content="LIMPAR" HorizontalAlignment="Left" Margin="471,364,0,0" VerticalAlignment="Top" Height="20" Width="82" Background="#FFF5E4E4" FontFamily="Tempus Sans ITC" FontWeight="Bold" BorderThickness="2,2,2,2" Click="btLimpar_Click"/>
 
         </Grid>
 

@@ -60,5 +60,13 @@ namespace Projeto1.Formularios
         {
             this.Close();
         }
+
+        private void btLimpar_Click(object sender, RoutedEventArgs e)
+        {
+            txtAltura.Clear();
+            txtPeso.Clear();
+            txtIMCcalculado.Clear();
+            txtStatusIMC.Clear();
+        }
     }
 }

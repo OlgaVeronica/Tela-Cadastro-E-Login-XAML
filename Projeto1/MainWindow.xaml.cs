@@ -59,6 +59,9 @@ namespace Projeto1
 
             else
                 MessageBox.Show($"O usuário ou a senha está incorreta ou não existe! Tente novamente", "PDS - 2022, 1º Bimestre", MessageBoxButton.OK, MessageBoxImage.Error);
+
+            txtLogin.Clear();
+            pwbSenha.Clear();
         }
 
         private void btChamarTelaCadastro_Click(object sender, RoutedEventArgs e)
