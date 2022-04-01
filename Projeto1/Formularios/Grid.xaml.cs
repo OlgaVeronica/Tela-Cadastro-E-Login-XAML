@@ -28,5 +28,11 @@ namespace Projeto1.Formularios
         {
             this.Close();
         }
+
+        private void btCadastrar_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Usuário cadastrado! :)", "PDS - 2022, 1º Bimestre", MessageBoxButton.OK, MessageBoxImage.Information);
+            this.Close();
+        }
     }
 }

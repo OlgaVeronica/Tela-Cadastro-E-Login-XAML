@@ -36,24 +36,29 @@ namespace Projeto1.Formularios
         {
             double resultado = CalcularOIMC(txtPeso.Text, txtAltura.Text);
             txtIMCcalculado.Text = resultado.ToString();
+            if (char.IsNumber(Convert.ToChar(txtAltura.Text)) && char.IsNumber(Convert.ToChar(txtPeso.Text)))
+            {
+                if (resultado < 18)
+                    txtStatusIMC.Text = "Abaixo do Peso";
 
-            if (resultado < 18)
-                txtStatusIMC.Text = "Abaixo do Peso";
+                if (resultado > 18.5 && resultado < 24.9)
+                    txtStatusIMC.Text = "Peso Ideal";
 
-            if (resultado > 18.5 && resultado < 24.9)
-                txtStatusIMC.Text = "Peso Ideal";
+                if (resultado > 25 && resultado < 29.9)
+                    txtStatusIMC.Text = "Sobrepeso";
 
-            if (resultado > 25 && resultado < 29.9)
-                txtStatusIMC.Text = "Sobrepeso";
+                if (resultado > 30 && resultado < 34.9)
+                    txtStatusIMC.Text = "Obesidade Grau I";
 
-            if (resultado > 30 && resultado < 34.9)
-                txtStatusIMC.Text = "Obesidade Grau I";
+                if (resultado > 35 && resultado < 39.9)
+                    txtStatusIMC.Text = "Obesidade Grau II";
 
-            if (resultado > 35 && resultado < 39.9)
-                txtStatusIMC.Text = "Obesidade Grau II";
-
-            if (resultado >=  40)
-                txtStatusIMC.Text = "Obesidade Mórbida";
+                if (resultado >= 40)
+                    txtStatusIMC.Text = "Obesidade Mórbida";
+            }
+            else
+                MessageBox.Show("insira apenas números!!");
+            
         }
 
         private void btFechar_Click(object sender, RoutedEventArgs e)
