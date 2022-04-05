@@ -58,3 +58,5 @@ E:\GITHUB-CLONES\Tela-Cadastro-E-Login-XAML\Projeto1\obj\Debug\Projeto1.csproj.G
 E:\GITHUB-CLONES\Tela-Cadastro-E-Login-XAML\Projeto1\obj\Debug\Projeto1.csproj.CoreCompileInputs.cache
 E:\GITHUB-CLONES\Tela-Cadastro-E-Login-XAML\Projeto1\obj\Debug\Projeto1.exe
 E:\GITHUB-CLONES\Tela-Cadastro-E-Login-XAML\Projeto1\obj\Debug\Projeto1.pdb
+C:\Users\2020102011008-1\Desktop\Projetos visual studio\GITCLONES\Tela-Cadastro-E-Login-XAML\Projeto1\obj\Debug\Formularios\Grid.g.cs
+C:\Users\2020102011008-1\Desktop\Projetos visual studio\GITCLONES\Tela-Cadastro-E-Login-XAML\Projeto1\obj\Debug\Formularios\Grid.baml
