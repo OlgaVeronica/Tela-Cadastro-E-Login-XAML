@@ -69,5 +69,10 @@ namespace Projeto1
             Cadastrar TelaCadastro = new Cadastrar();
             TelaCadastro.ShowDialog();
         }
+
+        private void txtLogin_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
